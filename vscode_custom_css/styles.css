@@ -1,0 +1,28 @@
+/* some files label */
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row .monaco-icon-label .label-name {
+  font-family: "Geist Mono", monospace !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+}
+/* scrollbar */
+.slider {
+  position: absolute !important;
+  right: 1px !important;
+  width: 1px !important;
+  background: #c4a3f3 !important;
+  left: auto !important;
+}
+.decorationsOverviewRuler {
+  width: 1px !important;
+}
+/* Command palette text input */
+.quick-input-filter .monaco-inputbox {
+  border-radius: 8px !important;
+  padding: 4px 8px !important;
+  border: none !important;
+  background-color: rgba(24, 24, 36, 0.4) !important;
+  font-family: "Geist Mono" !important;
+  font-size: 14px !important;
+  margin-bottom: 16px !important;
+}
