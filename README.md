@@ -5,7 +5,8 @@ This is my personal Visual Studio Code settings. ⚙️
 ## Required Extensions
 
 > [!IMPORTANT]
-> Install these extensions first:
+>
+> ### Extensions to install:
 >
 > - Color Theme: <https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc>
 > - File Icon Theme: <https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons>
