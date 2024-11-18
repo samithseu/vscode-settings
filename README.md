@@ -10,7 +10,7 @@ This is my personal Visual Studio Code settings. ⚙️
 > - File Icon Theme: <a href="https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons">Catppuccin.catppuccin-vsc-icons</a>
 > - CSS and JS Loader: <a href="https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css">be5invis.vscode-custom-css</a>
 
-## Appling Settings
+## Applying Settings
 
 1. Open your vscode, then press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>
 2. Type in `Open User Settings (JSON)`
