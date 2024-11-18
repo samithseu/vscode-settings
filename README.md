@@ -13,10 +13,10 @@ This is my personal Visual Studio Code settings. ⚙️
 
 ## Appling Settings
 
-1. Open your VSCODE, then press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>
+1. Open your vscode, then press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>
 2. Type in `Open User Settings (JSON)`
-3. Paste the content from <a href="settings.json">settings.json</a> into your VSCODE settings.
-4. Add the path of this file (<a href="vscode_custom_css/styles.css">styles.css</a>) properly into `"vscode_custom_css.imports":[]` of your VSCODE settings.
+3. Paste the content from <a href="settings.json">settings.json</a> into your vscode settings.
+4. Add the path of <a href="vscode_custom_css/styles.css">styles.css</a> file properly into `"vscode_custom_css.imports"` of your vscode settings.
 
 Example:
 
