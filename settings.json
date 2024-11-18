@@ -9,7 +9,7 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "terminal.integrated.fontFamily": "\"Geist Mono SemiBold\", \"Siemreap\", monospace",
+  "terminal.integrated.fontFamily": "\"Geist Mono SemiBold\", \"Siemreap\", \"Hack Nerd Font\"",
   "editor.largeFileOptimizations": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.fontSize": 15,
@@ -17,7 +17,7 @@
   "code-runner.runInTerminal": true,
   "explorer.confirmDelete": false,
 
-  // BELOW SECTIONS ARE USED FOR MODIFYING THE FORMATTER OF LANGUAGES
+  // BELOW SECTIONS ARE USED FOR MODIFY THE FORMATTER OF LANGUAGES
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
@@ -148,7 +148,7 @@
   "workbench.colorTheme": "Catppuccin Mocha",
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.unicodeHighlight.ambiguousCharacters": false,
-  "editor.fontFamily": "'Geist Mono SemiBold', 'krasar', monospace",
+  "editor.fontFamily": "'Geist Mono SemiBold', 'krasar', 'Courier New', monospace",
   "redhat.telemetry.enabled": true,
   "files.associations": {
     "*.java": "java"
@@ -169,7 +169,6 @@
   "window.newWindowDimensions": "inherit",
   "editor.snippetSuggestions": "top",
   "workbench.editor.showTabs": "multiple",
-  "window.menuBarVisibility": "toggle",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "workbench.activityBar.location": "hidden",
@@ -186,5 +185,6 @@
   // CUSTOM CSS STYLES FOR VSCODE
   "vscode_custom_css.imports": [
     "file:///C:/Users/MITH/vscode_custom_css/styles.css"
-  ]
+  ],
+  "window.menuBarVisibility": "compact"
 }
