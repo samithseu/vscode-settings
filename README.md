@@ -2,13 +2,17 @@
 
 This is my personal Visual Studio Code settings. ⚙️
 
-## Required Extensions
+## Requirements
 
 > [!IMPORTANT]
->
+> ### Extensions
 > - Color Theme: <a href="https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc">Catppuccin.catppuccin-vsc</a>
 > - File Icon Theme: <a href="https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons">Catppuccin.catppuccin-vsc-icons</a>
 > - CSS and JS Loader: <a href="https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css">be5invis.vscode-custom-css</a>
+> ---
+> ### Fonts
+> - English: <a href="https://github.com/vercel/geist-font/releases/tag/1.4.01">Geist Mono SemiBold</a>
+> - Khmer: <a href="https://fonts.google.com/specimen/Kantumruy+Pro">Kantumruy Pro</a>
 
 ## Applying Settings
 
