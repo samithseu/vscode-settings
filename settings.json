@@ -1,168 +1,37 @@
 {
-  "security.workspace.trust.untrustedFiles": "open",
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook",
-    "*.shortcut": "default",
-    "*.thmx": "default"
-  },
-  "notebook.cellToolbarLocation": {
-    "default": "right",
-    "jupyter-notebook": "left"
-  },
   "terminal.integrated.fontFamily": "\"Geist Mono SemiBold\", \"Siemreap\", \"Hack Nerd Font\"",
   "editor.largeFileOptimizations": false,
-  "liveServer.settings.donotShowInfoMsg": true,
   "editor.fontSize": 15,
   "editor.wordWrap": "on",
-  "code-runner.runInTerminal": true,
-  "explorer.confirmDelete": false,
-
-  // BELOW SECTIONS ARE USED FOR MODIFY THE FORMATTER OF LANGUAGES
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2
-  },
-  "[sass]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2
-  },
-  "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools",
-    "editor.tabSize": 2
-  },
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools",
-    "editor.wordBasedSuggestions": "matchingDocuments",
-    "editor.tabSize": 2
-  },
-  "[php]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.wordBasedSuggestions": "off",
-    "editor.formatOnType": true
-  },
-  "[csharp]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 4
-  },
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java",
-    "editor.suggest.preview": false, //disable the auto suggest when creating a new file
-    "editor.codeLens": false, //disable the Run|Debug
-    "editor.inlayHints.enabled": "offUnlessPressed", // disable the x:...
-    "editor.tabSize": 4
-  },
-  "[blade]": {
-    "editor.defaultFormatter": "onecentlin.laravel-blade",
-    "editor.formatOnSave": true,
-    "editor.wordBasedSuggestions": "matchingDocuments",
-    "editor.formatOnType": true,
-    "editor.autoClosingBrackets": "always",
-    "editor.tabSize": 2
-  },
-  "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml"
-  },
-  "[dart]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.rulers": [80],
-    "editor.selectionHighlight": false,
-
-    "editor.suggestSelection": "first",
-
-    "editor.tabCompletion": "onlySnippets",
-
-    "editor.wordBasedSuggestions": "off"
-  },
-  "blade.format.enable": true,
-
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
   "workbench.iconTheme": "catppuccin-mocha",
   "editor.accessibilitySupport": "off",
   "editor.linkedEditing": true,
-  "editor.unicodeHighlight.allowedLocales": {
-    "es": true
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
   "workbench.startupEditor": "none",
-  "codesnap.shutterAction": "copy",
-  "codesnap.containerPadding": "0em",
-  "markdown-preview-enhanced.previewTheme": "atom-light.css",
-  "markdown-preview-enhanced.puppeteerArgs": [],
-  "markdown-pdf.stylesRelativePathFile": true,
-  "liveServer.settings.donotVerifyTags": true,
   "terminal.integrated.cursorStyle": "line",
   "editor.cursorSmoothCaretAnimation": "on",
-  "markdown-pdf.margin.bottom": "1.5cm",
-  "markdown-pdf.margin.left": "1.27cm",
-  "markdown-pdf.margin.right": "1.27cm",
-  "markdown-pdf.StatusbarMessageTimeout": 20000,
-  "markdown-pdf.displayHeaderFooter": false,
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "editor.cursorBlinking": "solid",
-  "css.enabledLanguages": ["html, blade, react"],
   "window.zoomLevel": 2,
-  "[blade][cpp]": {
-    "editor.wordBasedSuggestions": "matchingDocuments"
-  },
   "editor.quickSuggestions": {
     "strings": "on"
   },
-  "tailwindCSS.includeLanguages": {
-    "plaintext": "html"
-  },
-
   "terminal.integrated.enableMultiLinePasteWarning": "auto",
-  "markdown-preview-enhanced.codeBlockTheme": "default.css",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
-  "cmake.showOptionsMovedNotification": false,
   "workbench.colorTheme": "Catppuccin Mocha",
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.fontFamily": "'Geist Mono SemiBold', 'krasar', 'Courier New', monospace",
-  "redhat.telemetry.enabled": true,
-  "files.associations": {
-    "*.java": "java"
-  },
-  "remoteHub.commitDirectlyWarning": "off",
   "explorer.confirmPasteNative": false,
-  "git.autofetch": true,
-  "git.openRepositoryInParentFolders": "always",
-  "codesnap.roundedCorners": false,
-  "codesnap.showWindowControls": false,
   "explorer.compactFolders": false,
-  "dart.flutterSdkPath": "D:\\Codes\\flutter_sdk",
   "editor.lineNumbers": "off",
-  "python.createEnvironment.trigger": "off",
   "workbench.editor.enablePreview": false,
   "editor.copyWithSyntaxHighlighting": false,
   "workbench.statusBar.visible": false,
@@ -181,10 +50,10 @@
   "editor.hideCursorInOverviewRuler": true,
   "editor.padding.top": 16,
   "editor.lineHeight": 1.6,
+  "window.menuBarVisibility": "compact",
 
   // CUSTOM CSS STYLES FOR VSCODE
   "vscode_custom_css.imports": [
     "file:///C:/Users/MITH/vscode_custom_css/styles.css"
-  ],
-  "window.menuBarVisibility": "compact"
+  ]
 }
