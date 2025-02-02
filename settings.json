@@ -1,5 +1,5 @@
 {
-  "terminal.integrated.fontFamily": "\"Geist Mono SemiBold\", \"Siemreap\", \"Hack Nerd Font\"",
+  "terminal.integrated.fontFamily": "'Geist Mono SemiBold', 'monospace', 'Siemreap'",
   "editor.largeFileOptimizations": false,
   "editor.fontSize": 15,
   "editor.wordWrap": "on",
@@ -28,7 +28,7 @@
   "workbench.colorTheme": "Catppuccin Mocha",
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.unicodeHighlight.ambiguousCharacters": false,
-  "editor.fontFamily": "'Geist Mono SemiBold', 'krasar', 'Courier New', monospace",
+  "editor.fontFamily": "'Geist Mono SemiBold', 'monospace', 'Siemreap'",
   "explorer.confirmPasteNative": false,
   "explorer.compactFolders": false,
   "editor.lineNumbers": "off",
@@ -50,10 +50,5 @@
   "editor.hideCursorInOverviewRuler": true,
   "editor.padding.top": 16,
   "editor.lineHeight": 1.6,
-  "window.menuBarVisibility": "compact",
-
-  // CUSTOM CSS STYLES FOR VSCODE
-  "vscode_custom_css.imports": [
-    "file:///C:/Users/MITH/vscode_custom_css/styles.css"
-  ]
+  "window.menuBarVisibility": "compact"
 }

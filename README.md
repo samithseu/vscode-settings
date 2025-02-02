@@ -1,40 +1,30 @@
 # VSCODE Settings
 
-This is my personal Visual Studio Code settings. ⚙️
-
-## Requirements
-
-> [!IMPORTANT]
->
-> ### Extensions
->
-> - Color Theme: <a href="https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc">Catppuccin.catppuccin-vsc</a>
-> - File Icon Theme: <a href="https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons">Catppuccin.catppuccin-vsc-icons</a>
-> - CSS and JS Loader: <a href="https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css">be5invis.vscode-custom-css</a>
->
-> ---
->
-> ### Fonts
->
-> - English: <a href="https://github.com/vercel/geist-font/releases/tag/1.4.01">Geist Mono SemiBold</a>
-> - Khmer: <a href="https://fonts.google.com/specimen/Kantumruy+Pro">Kantumruy Pro</a>
+This is my personal Visual Studio Code settings which is cleaner than the default settings, I think 😆⚙️
 
 ## Applying Settings
 
-1. Open your vscode, then press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>
-2. Type in `Open User Settings (JSON)`
-3. Paste the content from <a href="settings.json">settings.json</a> into your vscode settings.
-4. Add the path of <a href="vscode_custom_css/styles.css">styles.css</a> file properly into `"vscode_custom_css.imports"` of your vscode settings.
+Each command will backup your old settings in case you need it later. Start applying settings based on your OS:
 
-Example:
+### Windows
 
-```json
-"vscode_custom_css.imports": [
-  "file:///yours/file/path/to/vscode_custom_css/styles.css"
-]
+```powershell
+code --install-extension Catppuccin.catppuccin-vsc; code --install-extension Catppuccin.catppuccin-vsc-icons;
+mv $env:APPDATA/Code/User/settings.json $env:APPDATA/Code/User/settings.json.bak; irm "https://github.com/samithseu/vscode-settings/raw/main/settings.json" -OutFile $ENV:APPDATA/code/user/settings.json
+```
+
+### Mac
+
+```bash
+code --install-extension Catppuccin.catppuccin-vsc && code --install-extension Catppuccin.catppuccin-vsc-icons && mv $HOME/Library/Application\ Support/Code/User/settings.json $HOME/Library/Application\ Support/Code/User/settings.json.bak && curl -o $HOME/Library/Application\ Support/Code/User/settings.json https://github.com/samithseu/vscode-settings/raw/main/settings.json
+```
+
+### Linux
+
+```bash
+code --install-extension Catppuccin.catppuccin-vsc && code --install-extension Catppuccin.catppuccin-vsc-icons && mv $HOME/.config/Code/User/settings.json $HOME/.config/Code/User/settings.json.bak && curl -o $HOME/.config/Code/User/settings.json https://github.com/samithseu/vscode-settings/raw/main/settings.json
 ```
 
 ## Result
 
-<img src="SAMPLE-1.png" />
 <img src="SAMPLE-2.png" />
