@@ -1,0 +1,10 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+numpad_multiply",
+    "command": "runCommands",
+    "args": {
+      "commands": ["saveAll", "workbench.files.action.collapseExplorerFolders"]
+    }
+  }
+]

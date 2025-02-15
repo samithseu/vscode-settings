@@ -1,5 +1,5 @@
 {
-  "terminal.integrated.fontFamily": "'Geist Mono SemiBold', 'monospace', 'Siemreap'",
+  "terminal.integrated.fontFamily": "\"JetBrainsMono Nerd Font SemiBold\", \"Kantumruy Pro Medium\"",
   "editor.largeFileOptimizations": false,
   "editor.fontSize": 15,
   "editor.wordWrap": "on",
@@ -12,7 +12,6 @@
   "editor.accessibilitySupport": "off",
   "editor.linkedEditing": true,
   "workbench.startupEditor": "none",
-  "terminal.integrated.cursorStyle": "line",
   "editor.cursorSmoothCaretAnimation": "on",
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
@@ -28,7 +27,7 @@
   "workbench.colorTheme": "Catppuccin Mocha",
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.unicodeHighlight.ambiguousCharacters": false,
-  "editor.fontFamily": "'Geist Mono SemiBold', 'monospace', 'Siemreap'",
+  "editor.fontFamily": "'JetBrainsMono Nerd Font SemiBold', 'Kantumruy Pro Medium'",
   "explorer.confirmPasteNative": false,
   "explorer.compactFolders": false,
   "editor.lineNumbers": "off",
@@ -39,7 +38,6 @@
   "editor.snippetSuggestions": "top",
   "workbench.editor.showTabs": "multiple",
   "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
   "workbench.activityBar.location": "hidden",
   "breadcrumbs.enabled": false,
   "scm.diffDecorations": "none",
@@ -50,5 +48,9 @@
   "editor.hideCursorInOverviewRuler": true,
   "editor.padding.top": 16,
   "editor.lineHeight": 1.6,
-  "window.menuBarVisibility": "compact"
+  "window.menuBarVisibility": "compact",
+  "workbench.layoutControl.enabled": false,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.cursorStyle": "block",
+  "explorer.confirmDelete": false
 }
