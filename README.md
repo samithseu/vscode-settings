@@ -1,6 +1,6 @@
 # VSCODE Settings
 
-This is my personal Visual Studio Code settings which is cleaner than the default settings, I think 😆⚙️
+⚙️ This is my personal Visual Studio Code settings which is cleaner than the default settings, I think 😆
 
 ## Fonts
 
