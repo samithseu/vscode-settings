@@ -14,19 +14,19 @@ Start applying settings based on your OS: <i>(Each command will backup your old 
 ### Windows
 
 ```powershell
-code --install-extension esbenp.prettier-vscode; code --install-extension Catppuccin.catppuccin-vsc; code --install-extension Catppuccin.catppuccin-vsc-icons; mv $env:APPDATA/Code/User/settings.json $env:APPDATA/Code/User/settings.json.bak; irm "https://github.com/samithseu/vscode-settings/raw/main/settings.json" -OutFile $ENV:APPDATA/code/user/settings.json; irm "https://github.com/samithseu/vscode-settings/raw/main/keybindings.json" -OutFile $ENV:APPDATA/code/user/keybindings.json
+code --install-extension esbenp.prettier-vscode; code --install-extension Catppuccin.catppuccin-vsc; code --install-extension Catppuccin.catppuccin-vsc-icons; if (Test-Path "$env:APPDATA\Code\User\settings.json") { mv "$env:APPDATA\Code\User\settings.json" "$env:APPDATA\Code\User\settings.json.bak" } else { Write-Host "settings.json not found, skipping backup" }; irm "https://github.com/samithseu/vscode-settings/raw/main/settings.json" -OutFile "$env:APPDATA\Code\User\settings.json"; irm "https://github.com/samithseu/vscode-settings/raw/main/keybindings.json" -OutFile "$env:APPDATA\Code\User\keybindings.json"
 ```
 
 ### Mac
 
 ```bash
-code --install-extension esbenp.prettier-vscode && code --install-extension Catppuccin.catppuccin-vsc && code --install-extension Catppuccin.catppuccin-vsc-icons && mv $HOME/Library/Application\ Support/Code/User/settings.json $HOME/Library/Application\ Support/Code/User/settings.json.bak && curl -o $HOME/Library/Application\ Support/Code/User/settings.json https://github.com/samithseu/vscode-settings/raw/main/settings.json && curl -o $HOME/Library/Application\ Support/Code/User/keybindings.json https://github.com/samithseu/vscode-settings/raw/main/keybindings.json
+code --install-extension esbenp.prettier-vscode && code --install-extension Catppuccin.catppuccin-vsc && code --install-extension Catppuccin.catppuccin-vsc-icons && [ -f "$HOME/Library/Application Support/Code/User/settings.json" ] && mv "$HOME/Library/Application Support/Code/User/settings.json" "$HOME/Library/Application Support/Code/User/settings.json.bak" || echo "settings.json not found, skipping backup" && curl -o "$HOME/Library/Application Support/Code/User/settings.json" https://github.com/samithseu/vscode-settings/raw/main/settings.json && curl -o "$HOME/Library/Application Support/Code/User/keybindings.json" https://github.com/samithseu/vscode-settings/raw/main/keybindings.json
 ```
 
 ### Linux
 
 ```bash
-code --install-extension esbenp.prettier-vscode && code --install-extension Catppuccin.catppuccin-vsc && code --install-extension Catppuccin.catppuccin-vsc-icons && mv $HOME/.config/Code/User/settings.json $HOME/.config/Code/User/settings.json.bak && curl -o $HOME/.config/Code/User/settings.json https://github.com/samithseu/vscode-settings/raw/main/settings.json && curl -o $HOME/.config/Code/User/keybindings.json https://github.com/samithseu/vscode-settings/raw/main/keybindings.json
+code --install-extension esbenp.prettier-vscode && code --install-extension Catppuccin.catppuccin-vsc && code --install-extension Catppuccin.catppuccin-vsc-icons && [ -f "$HOME/.config/Code/User/settings.json" ] && mv "$HOME/.config/Code/User/settings.json" "$HOME/.config/Code/User/settings.json.bak" || echo "settings.json not found, skipping backup" && curl -o "$HOME/.config/Code/User/settings.json" https://github.com/samithseu/vscode-settings/raw/main/settings.json && curl -o "$HOME/.config/Code/User/keybindings.json" https://github.com/samithseu/vscode-settings/raw/main/keybindings.json
 ```
 
 ## Result
