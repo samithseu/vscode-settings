@@ -32,3 +32,59 @@ code --install-extension esbenp.prettier-vscode && code --install-extension Catp
 ## Result
 
 <img src="SAMPLE.png" />
+
+## Other
+
+<details>
+  <summary>Personal extensions only! <i>(optional)</i> </summary>
+  
+  ```json
+  {
+    "recommendations": [
+      "amiralizadeh9480.laravel-extra-intellisense",
+      "antfu.goto-alias",
+      "astro-build.astro-vscode",
+      "bmewburn.vscode-intelephense-client",
+      "bradlc.vscode-tailwindcss",
+      "catppuccin.catppuccin-vsc",
+      "catppuccin.catppuccin-vsc-icons",
+      "codingyu.laravel-goto-view",
+      "csstools.postcss",
+      "damms005.devdb",
+      "dbaeumer.vscode-eslint",
+      "dsznajder.es7-react-js-snippets",
+      "ecmel.vscode-html-css",
+      "editorconfig.editorconfig",
+      "esbenp.prettier-vscode",
+      "formulahendry.auto-rename-tag",
+      "github.copilot",
+      "github.copilot-chat",
+      "glitchbl.laravel-create-view",
+      "ihunte.laravel-blade-wrapper",
+      "jock.svg",
+      "mark-wiemer.vscode-autohotkey-plus-plus",
+      "mehedidracula.php-namespace-resolver",
+      "mikestead.dotenv",
+      "ms-python.debugpy",
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "myriad-dreamin.tinymist",
+      "naoray.laravel-goto-components",
+      "nuxt.mdc",
+      "nuxtr.nuxt-vscode-extentions",
+      "nuxtr.nuxtr-vscode",
+      "onecentlin.laravel-blade",
+      "onecentlin.laravel-extension-pack",
+      "onecentlin.laravel5-snippets",
+      "pgl.laravel-jump-controller",
+      "qwtel.sqlite-viewer",
+      "ritwickdey.liveserver",
+      "ryannaddy.laravel-artisan",
+      "shufo.vscode-blade-formatter",
+      "supermaven.supermaven",
+      "tomoki1207.pdf",
+      "vue.volar"
+    ]
+  }
+  ```
+</details>
