@@ -85,6 +85,7 @@ shufo.vscode-blade-formatter
 supermaven.supermaven
 tomoki1207.pdf
 vue.volar
+yoavbls.pretty-ts-errors
 " | xargs -n 1 code --install-extension
   ```
 </details>
