@@ -86,6 +86,7 @@ supermaven.supermaven
 tomoki1207.pdf
 vue.volar
 yoavbls.pretty-ts-errors
+tamasfe.even-better-toml
 " | xargs -n 1 code --install-extension
   ```
 </details>
