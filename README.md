@@ -52,7 +52,9 @@ csstools.postcss
 damms005.devdb
 dart-code.dart-code
 dart-code.flutter
+davidanson.vscode-markdownlint
 dbaeumer.vscode-eslint
+diemasmichiels.emulate
 dsznajder.es7-react-js-snippets
 ecmel.vscode-html-css
 editorconfig.editorconfig
@@ -61,6 +63,7 @@ formulahendry.auto-rename-tag
 github.copilot
 github.copilot-chat
 glitchbl.laravel-create-view
+goopware.raythis
 ihunte.laravel-blade-wrapper
 jock.svg
 mark-wiemer.vscode-autohotkey-plus-plus
@@ -69,8 +72,14 @@ mikestead.dotenv
 ms-python.debugpy
 ms-python.python
 ms-python.vscode-pylance
+ms-python.vscode-python-envs
+ms-vscode.cmake-tools
+ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
 myriad-dreamin.tinymist
 naoray.laravel-goto-components
+naumovs.color-highlight
 nuxt.mdc
 nuxtr.nuxt-vscode-extentions
 nuxtr.nuxtr-vscode
@@ -82,11 +91,13 @@ qwtel.sqlite-viewer
 ritwickdey.liveserver
 ryannaddy.laravel-artisan
 shufo.vscode-blade-formatter
+sleistner.vscode-fileutils
 supermaven.supermaven
+tamasfe.even-better-toml
 tomoki1207.pdf
+vscjava.vscode-gradle
 vue.volar
 yoavbls.pretty-ts-errors
-tamasfe.even-better-toml
 " | xargs -n 1 code --install-extension
   ```
 </details>
