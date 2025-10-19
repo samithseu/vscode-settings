@@ -28,7 +28,20 @@
   },
   {
     "key": "meta+c",
-    "command": "codesnap.start"
+    "command": "workbench.action.terminal.sendSequence",
+    "when": "editorFocus",
+    "args": {
+      "command": "workbench.action.terminal.clear",
+      "text": "silicon '${file}' --to-clipboard\n"
+    }
+  },
+  {
+    "key": "meta+shift+c",
+    "command": "workbench.action.terminal.sendSequence",
+    "when": "editorFocus",
+    "args": {
+      "text": "\n\n\necho '${selectedText}' | silicon -l $(get_ext ${file}) --to-clipboard\n"
+    }
   },
   {
     "key": "ctrl+shift+i",
