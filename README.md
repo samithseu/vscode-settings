@@ -98,6 +98,7 @@ tomoki1207.pdf
 vscjava.vscode-gradle
 vue.volar
 yoavbls.pretty-ts-errors
+quicktype.quicktype
 " | xargs -n 1 code --install-extension
   ```
 </details>
