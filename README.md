@@ -4,17 +4,17 @@
 
 ## Fonts
 
-- English: <a href="https://www.nerdfonts.com/font-downloads" alt="Nerd Fonts URL">Nerd Fonts</a> <i>(Choose the one you prefer!)</i>
-- Khmer: <a href="https://fonts.google.com/specimen/Kantumruy+Pro" alt="Kantumruy Pro fonts">Kantumruy Pro</a> <i>(free version of Krasar Font!)</i>
+- English: <a href="https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/JetBrainsMono.zip" alt="JetBrainsMono Nerd Font">JetBrainsMono Nerd Font</a> <i>(Or choose the one you prefer!)</i>
+- Khmer: <a href="https://github.com/grab/inter-font-extensions/releases/download/1.0/inter-font-extensions-1.0.zip" alt="Inter Khmer Looped">Inter Khmer Looped</a>
 
 ## Applying Settings
 
 Start applying settings based on your OS: <i>(Each command will backup your old settings in case you need it later.)</i>
 
-### Windows
+### Linux
 
-```powershell
-code --install-extension esbenp.prettier-vscode; code --install-extension Catppuccin.catppuccin-vsc; code --install-extension Catppuccin.catppuccin-vsc-icons; if (Test-Path "$env:APPDATA\Code\User\settings.json") { mv "$env:APPDATA\Code\User\settings.json" "$env:APPDATA\Code\User\settings.json.bak" } else { Write-Host "settings.json not found, skipping backup" }; irm "https://github.com/samithseu/vscode-settings/raw/main/settings.json" -OutFile "$env:APPDATA\Code\User\settings.json"; irm "https://github.com/samithseu/vscode-settings/raw/main/keybindings.json" -OutFile "$env:APPDATA\Code\User\keybindings.json"
+```bash
+code --install-extension esbenp.prettier-vscode && code --install-extension Catppuccin.catppuccin-vsc && code --install-extension Catppuccin.catppuccin-vsc-icons && [ -f "$HOME/.config/Code/User/settings.json" ] && mv "$HOME/.config/Code/User/settings.json" "$HOME/.config/Code/User/settings.json.bak" || echo "settings.json not found, skipping backup" && curl -L -o "$HOME/.config/Code/User/settings.json" "https://github.com/samithseu/vscode-settings/raw/main/settings.json" && curl -L -o "$HOME/.config/Code/User/keybindings.json" "https://github.com/samithseu/vscode-settings/raw/main/keybindings.json"
 ```
 
 ### Mac
@@ -23,15 +23,18 @@ code --install-extension esbenp.prettier-vscode; code --install-extension Catppu
 code --install-extension esbenp.prettier-vscode && code --install-extension Catppuccin.catppuccin-vsc && code --install-extension Catppuccin.catppuccin-vsc-icons && [ -f "$HOME/Library/Application Support/Code/User/settings.json" ] && mv "$HOME/Library/Application Support/Code/User/settings.json" "$HOME/Library/Application Support/Code/User/settings.json.bak" || echo "settings.json not found, skipping backup" && curl -L -o "$HOME/Library/Application Support/Code/User/settings.json" "https://github.com/samithseu/vscode-settings/raw/main/settings.json" && curl -L -o "$HOME/Library/Application Support/Code/User/keybindings.json" "https://github.com/samithseu/vscode-settings/raw/main/keybindings.json"
 ```
 
-### Linux
+### Windows
 
-```bash
-code --install-extension esbenp.prettier-vscode && code --install-extension Catppuccin.catppuccin-vsc && code --install-extension Catppuccin.catppuccin-vsc-icons && [ -f "$HOME/.config/Code/User/settings.json" ] && mv "$HOME/.config/Code/User/settings.json" "$HOME/.config/Code/User/settings.json.bak" || echo "settings.json not found, skipping backup" && curl -L -o "$HOME/.config/Code/User/settings.json" "https://github.com/samithseu/vscode-settings/raw/main/settings.json" && curl -L -o "$HOME/.config/Code/User/keybindings.json" "https://github.com/samithseu/vscode-settings/raw/main/keybindings.json"
+```powershell
+code --install-extension esbenp.prettier-vscode; code --install-extension Catppuccin.catppuccin-vsc; code --install-extension Catppuccin.catppuccin-vsc-icons; if (Test-Path "$env:APPDATA\Code\User\settings.json") { mv "$env:APPDATA\Code\User\settings.json" "$env:APPDATA\Code\User\settings.json.bak" } else { Write-Host "settings.json not found, skipping backup" }; irm "https://github.com/samithseu/vscode-settings/raw/main/settings.json" -OutFile "$env:APPDATA\Code\User\settings.json"; irm "https://github.com/samithseu/vscode-settings/raw/main/keybindings.json" -OutFile "$env:APPDATA\Code\User\keybindings.json"
 ```
 
 ## Result
 
-<img src="SAMPLE.png" />
+<figure>
+  <img src="SAMPLE.png" />
+  <figcaption>Screenshot of fullscreen mode in vscode on Fedora</figcaption>
+</figure>
 
 ## Other
 
@@ -39,66 +42,54 @@ code --install-extension esbenp.prettier-vscode && code --install-extension Catp
   <summary>Personal extensions only! <i>(optional)</i> </summary>
   
   ```bash
-  echo "adpyke.codesnap
-amiralizadeh9480.laravel-extra-intellisense
-antfu.goto-alias
+  echo "antfu.goto-alias
+antfu.slidev
 astro-build.astro-vscode
-bmewburn.vscode-intelephense-client
 bradlc.vscode-tailwindcss
 catppuccin.catppuccin-vsc
 catppuccin.catppuccin-vsc-icons
-codingyu.laravel-goto-view
+continue.continue
 csstools.postcss
-damms005.devdb
 dart-code.dart-code
 dart-code.flutter
 davidanson.vscode-markdownlint
 dbaeumer.vscode-eslint
-diemasmichiels.emulate
 dsznajder.es7-react-js-snippets
 ecmel.vscode-html-css
-editorconfig.editorconfig
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
-github.copilot
-github.copilot-chat
-glitchbl.laravel-create-view
+github.codespaces
+github.vscode-github-actions
+golang.go
 goopware.raythis
-ihunte.laravel-blade-wrapper
+jkjustjoshing.vscode-text-pastry
 jock.svg
-mark-wiemer.vscode-autohotkey-plus-plus
-mehedidracula.php-namespace-resolver
-mikestead.dotenv
 ms-python.debugpy
 ms-python.python
 ms-python.vscode-pylance
 ms-python.vscode-python-envs
-ms-vscode.cmake-tools
-ms-vscode.cpptools
-ms-vscode.cpptools-extension-pack
-ms-vscode.cpptools-themes
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
 myriad-dreamin.tinymist
-naoray.laravel-goto-components
 naumovs.color-highlight
 nuxt.mdc
 nuxtr.nuxt-vscode-extentions
 nuxtr.nuxtr-vscode
-onecentlin.laravel-blade
-onecentlin.laravel-extension-pack
-onecentlin.laravel5-snippets
-pgl.laravel-jump-controller
+quicktype.quicktype
 qwtel.sqlite-viewer
-ritwickdey.liveserver
-ryannaddy.laravel-artisan
-shufo.vscode-blade-formatter
+robert-brunhage.flutter-riverpod-snippets
+rust-lang.rust-analyzer
 sleistner.vscode-fileutils
-supermaven.supermaven
+streetsidesoftware.code-spell-checker
 tamasfe.even-better-toml
+tauri-apps.tauri-vscode
 tomoki1207.pdf
 vscjava.vscode-gradle
 vue.volar
 yoavbls.pretty-ts-errors
-quicktype.quicktype
 " | xargs -n 1 code --install-extension
   ```
 </details>
