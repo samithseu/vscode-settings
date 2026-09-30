@@ -90,7 +90,7 @@
   "terminal.integrated.fontFamily": "'JetBrainsMono NFM Medium', 'monospace', 'Inter Khmer Looped'",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.commandCenter": false,
-  "window.menuBarVisibility": "compact",
+  "window.menuBarVisibility": "hidden",
   "window.newWindowDimensions": "inherit",
   "window.zoomLevel": 2,
   "workbench.activityBar.location": "hidden",
@@ -99,6 +99,7 @@
   "workbench.editor.empty.hint": "hidden",
   "workbench.editor.enablePreview": false,
   "workbench.editor.showTabs": "multiple",
+  "workbench.editor.useModal": "off",
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
     "*.svg": "default"
