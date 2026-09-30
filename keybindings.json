@@ -92,5 +92,9 @@
   {
     "key": "ctrl+9",
     "command": "workbench.action.openEditorAtIndex9"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "search.action.openNewEditor"
   }
 ]
