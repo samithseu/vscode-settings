@@ -12,8 +12,6 @@
   "color-highlight.markerType": "dot-after",
   "color-highlight.sass.includePaths": [],
   "cSpell.enabled": false,
-  "dart.flutterSdkPath": "/run/media/jroch/Data/dev/android_sdk/flutter",
-  "dart.warnWhenEditingFilesOutsideWorkspace": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.accessibilitySupport": "off",
   "editor.copyWithSyntaxHighlighting": false,
