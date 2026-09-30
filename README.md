@@ -57,7 +57,6 @@ dbaeumer.vscode-eslint
 dsznajder.es7-react-js-snippets
 ecmel.vscode-html-css
 esbenp.prettier-vscode
-formulahendry.auto-rename-tag
 github.codespaces
 github.vscode-github-actions
 golang.go
